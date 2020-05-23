@@ -102,6 +102,20 @@ SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [                 # add this
     ('link', 'profile_url'),
 ]
 ```
+##### demo Images
+###### settings for facebook
+![deme1](https://github.com/namantam1/social-auth-app-django/blob/master/demo_img/Screenshot%20(104).png)
+
+![deme1](https://github.com/namantam1/social-auth-app-django/blob/master/demo_img/Screenshot%20(105).png)
+
+![deme1](https://github.com/namantam1/social-auth-app-django/blob/master/demo_img/Screenshot%20(107)_LI.jpg)
+
+__*Please insure that you you check the live.__
+
+
+###### setting for google
+![deme1](https://github.com/namantam1/social-auth-app-django/blob/master/demo_img/Screenshot%20(108)_LI.jpg)
+
 ###### social_app/urls.py
 ```python
 # social_app/urls.py
@@ -239,9 +253,14 @@ img {
 }
 ```
 
+
+#### Now run the following commands.
 ```bash
 python manage.py migrate
+python manage.py runsslserver
 ```
+
+__*Congratualtion Your app is ready to test*__
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
