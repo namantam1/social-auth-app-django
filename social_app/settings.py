@@ -162,10 +162,10 @@ LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'login'
 
 
-SOCIAL_AUTH_FACEBOOK_KEY = "2339816646321200"        # App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = "dfce9fcfc6f2d889db83fd52a2e62601"  # App Secret
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = "536789209391-tbp59iimvot8t7hm6tabjji3cugs8g0l.apps.googleusercontent.com"        # App ID
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "J8mhvyakFvW_qsaopdPMt5v7"  # App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = "Your_facebook_key"        # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = "Your_facebook_key"  # App Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = "Your_google_key"        # App ID
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "Your_google_key"  # App Secret
 
 SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [                 # add this
     ('name', 'name'),
