@@ -261,7 +261,12 @@ python manage.py runsslserver
 ```
 
 __*Congratualtion Your app is ready to test*__
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Refrences
+1. [Python Social Auth documentation](https://python-social-auth.readthedocs.io/en/latest/configuration/django.html)
+2. [Django Authentication With Facebook, Instagram and LinkedIn](https://www.digitalocean.com/community/tutorials/django-authentication-with-facebook-instagram-and-linkedin)
