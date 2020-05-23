@@ -14,7 +14,7 @@ pip install django-sslserver
 I have used here a ssl localhost server because facebook requires a https server essentially so that django-sslserver pagage is used to force local host a https server.
 
 ## Usage
-######social_app/setting.py
+###### social_app/setting.py
 ```python
 #python socio auth
     'social_django', # add this
