@@ -25,12 +25,13 @@ mkdir static
 
 ###### social_app/setting.py
 ```python
-#python socio auth
-    'social_django', # add this
-    'core', # add this
-
-    #adding ssl server app to force localhost https
+INSTALLED_APPS = [
+    #sslserver
     'sslserver',
+
+    #social-auth-app-django
+    'social_django', # add this
+]
     
 MIDDLEWARE = [
     .
