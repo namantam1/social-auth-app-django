@@ -138,7 +138,7 @@ urlpatterns = [
     path("logout/", auth_views.LogoutView.as_view(), name="logout"),
 ]
 ```
-###### social_app/views.py
+###### core/views.py
 ```python
 from django.shortcuts import render
 
@@ -223,7 +223,7 @@ def home(request):
 </div>
 {% endblock %}
 ```
-###### static/index.css
+###### core/static/index.css
 ```css
 img {
   border: 3px solid #282c34;
